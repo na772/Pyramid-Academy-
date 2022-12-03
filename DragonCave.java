@@ -60,7 +60,7 @@ public class DragonCave
         {
             try
             {
-                cave = scanner. nextInt ();
+                //cave = scanner. nextInt (); //Comment for unit testing
                 if(cave == 1 || cave == 2)
                 {
                     scanner.close();
@@ -69,6 +69,7 @@ public class DragonCave
                 else
                 {
                     System.out.println("Invalid cave number");
+                    break;
                 }
             }
             catch(Exception e)

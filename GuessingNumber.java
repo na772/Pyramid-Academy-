@@ -105,12 +105,13 @@ public class GuessingNumber
             {
                 System.out.println("Take a guess");
 
-                guessedNumber = scanner.nextInt();
+                //guessedNumber = scanner.nextInt();
 
                 if( guessedNumber < 1  ||  guessedNumber > 20)
                 {
                     System.out.println("Your guess is out of range");
-                    guessedNumber = 0;
+                    //guessedNumber = 0;
+                    break;
                 }
                 else
                 {
